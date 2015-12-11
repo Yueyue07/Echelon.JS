@@ -1,6 +1,32 @@
 .biopic {
-  float:left;
-  margin-right: 20px;
-
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
+p {
+  margin: 0.3rem 0;
+}
+
+.profile {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 650px) {
+  .biopic {
+    float: left;
+    width: 14rem;
+    padding-right: 2rem;
+  }
+}
+
+/* ------- response ------- */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+span.warning {
+  color: #FF0000;
+}

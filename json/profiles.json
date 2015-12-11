@@ -1,6 +1,7 @@
 [
   {
     "name": "Donald Chatelain",
+    "bioPicture": "img/don-avatar.jpg",
     "alias": "Don Tor Taco",
     "missonCount": "Its over 9000!!!",
     "gitSite": "https://github.com/DonChatelain",
@@ -9,6 +10,7 @@
   },
   {
     "name": "Natalie Chow",
+    "bioPicture": "img/nat-avatar.jpg",
     "alias": "Romanoff",
     "missonCount": "33",
     "gitSite": "https://github.com/xxnatc",
@@ -17,6 +19,7 @@
   },
   {
     "name": "David Flegal",
+    "bioPicture": "img/david-avatar.jpg",
     "alias": "Scampe",
     "missonCount": "666",
     "gitSite": "github/Redacted",
@@ -25,6 +28,7 @@
   },
   {
     "name": "Mike Harrison",
+    "bioPicture": "img/mike-avatar.jpg",
     "alias": "Agent0",
     "missonCount": "Unknown",
     "gitSite": "https://github.com/Mikekh84",

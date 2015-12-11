@@ -1,0 +1,94 @@
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 1rem;
+  font-size: 2.2rem;
+}
+
+span#header2 {
+  font-weight: 400;
+}
+
+.screen {
+  background-color: black;
+  font-family: monospace;
+  color: #00F500;
+  min-height: 240px;
+  font-size: 1.6rem;
+  padding: 5%;
+}
+
+code {
+  font-size: 1rem;
+  color: #FF902A;
+  line-height: 1.3;
+}
+
+/* ------- input ------- */
+
+input[type="text"] {
+  margin: 6px 0px;
+  background-color: rgba(0, 245, 0, 0.15);
+  border: 2px solid #00F500;
+  padding: 4px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid white;
+}
+
+input[type="text"]:disabled {
+  background-color: rgba(0, 245, 0, 0.15);
+  border: 2px solid #006000;
+  color: #006000;
+  pointer-events: none;
+}
+
+/* ------- buttons ------- */
+
+button {
+  border: 2px solid #00F500;
+  background-color: black;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin: 1rem 1rem 1rem 0;
+  display: block;
+}
+
+button:hover {
+  background-color: #00F500;
+  color: black;
+}
+
+button:disabled {
+  border: 2px solid #006000;
+  color: #006000;
+  pointer-events: none;
+}
+
+/* ------- footer and hyperlink ------- */
+footer {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 2px;
+  padding: 0.75rem 0.5rem;
+  color: #777;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00F500;
+}
