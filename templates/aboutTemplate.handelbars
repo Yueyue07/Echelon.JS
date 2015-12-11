@@ -1,0 +1,22 @@
+<article>
+  <div class="visible agent-classified">
+    <img src="img/shadowhead.jpeg" width="160" height="160" class="biopic">
+    <p id="bio1">Name: Classified</p>
+    <p>Alias: Classified</p>
+    <p>Mission Count: Classified </p>
+    <p>Git Site: Classified </p>
+    <p>Status: Classified</p>
+    <p>Accomplishment: Classified</p>
+    <button id="dec1" class="visible">Declassify</button>
+  </div>
+
+  <div class="hidden agent-reveiled">
+    <img src="{{bioPicture}}" width="160" height="160" id="{{pictureId}}" class="biopic">
+    <p id="{{nameId}}">Name: <code>{{name}}</code></p>
+    <p>Alias: {{alias}} </p>
+    <p>Mission Count: {{missionCount}} </p>
+    <p>Git Site: {{gitSite}}</p>
+    <p>Status: {{status}}</p>
+    <p>Accomplishment: {{accomplishment}} </p>
+  </div>
+</article>

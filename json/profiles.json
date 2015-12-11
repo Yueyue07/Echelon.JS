@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Donald Chatelain",
+    "alias": "Don Tor Taco",
+    "missonCount": "Its over 9000!!!",
+    "gitSite": "https://github.com/DonChatelain",
+    "status": "On Mission in Cyberspace",
+    "accomplishment": "Broke into Fort Knox using <br>only a <span class=\"warning\">plastic spork and CSS. </span>"
+  },
+  {
+    "name": "Natalie Chow",
+    "alias": "Romanoff",
+    "missonCount": "33",
+    "gitSite": "https://github.com/xxnatc",
+    "status": "???",
+    "accomplishment": "Hacked the System."
+  },
+  {
+    "name": "David Flegal",
+    "alias": "Scampe",
+    "missonCount": "666",
+    "gitSite": "github/Redacted",
+    "status": "Deceased?",
+    "accomplishment": "Made a birdhouse with his dad last winter."
+  },
+  {
+    "name": "Mike Harrison",
+    "alias": "Agent0",
+    "missonCount": "Unknown",
+    "gitSite": "https://github.com/Mikekh84",
+    "status": "Classified",
+    "accomplishment": "Hacked the Gibson."
+  }
+]
