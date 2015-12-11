@@ -3,7 +3,7 @@
 /* ------- content wrapper ------- */
 main {
   max-width: 960px;
-  min-width: 560px;
+  width: 100%;
   margin: 36px auto;
   font-family: 'Raleway', sans-serif;
 }

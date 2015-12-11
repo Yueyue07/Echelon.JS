@@ -1,6 +1,6 @@
-<article>
+<article class="profile">
   <div class="visible agent-classified">
-    <img src="img/shadowhead.jpeg" width="160" height="160" class="biopic">
+    <img src="img/shadowhead.jpeg" class="biopic">
     <p id="bio1">Name: Classified</p>
     <p>Alias: Classified</p>
     <p>Mission Count: Classified </p>
@@ -11,12 +11,12 @@
   </div>
 
   <div class="hidden agent-reveiled">
-    <img src="{{bioPicture}}" width="160" height="160" id="{{pictureId}}" class="biopic">
+    <img src="{{bioPicture}}" id="{{pictureId}}" class="biopic">
     <p id="{{nameId}}">Name: <code>{{name}}</code></p>
     <p>Alias: {{alias}} </p>
     <p>Mission Count: {{missionCount}} </p>
     <p>Git Site: {{gitSite}}</p>
     <p>Status: {{status}}</p>
-    <p>Accomplishment: {{accomplishment}} </p>
+    <p>Accomplishment: {{{accomplishment}}} </p>
   </div>
 </article>
