@@ -1,5 +1,5 @@
 <article class="profile">
-  <div class="visible agent-classified">
+  <div class="agent-classified">
     <img src="img/shadowhead.jpeg" class="biopic">
     <p id="bio1">Name: Classified</p>
     <p>Alias: Classified</p>
@@ -7,7 +7,7 @@
     <p>Git Site: Classified </p>
     <p>Status: Classified</p>
     <p>Accomplishment: Classified</p>
-    <button id="dec1" class="visible">Declassify</button>
+    <button class="show">Declassify</button>
   </div>
 
   <div class="hidden agent-reveiled">

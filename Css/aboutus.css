@@ -22,10 +22,10 @@ p {
 }
 
 /* ------- response ------- */
-.hidden {
+/*.hidden {
   display: none;
   visibility: hidden;
-}
+}*/
 
 span.warning {
   color: #FF0000;
