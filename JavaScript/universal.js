@@ -20,7 +20,7 @@ function timerAll(secsRemain){
     }, 1000);
 }
 
-var currentStage = 0;
+var currentStage;
 
 function localize(stageNum) {
     currentStage = stageNum;
@@ -34,6 +34,3 @@ function getLocal() {
 
 
 //Added by Mike- Don's code for getting names for final page.
-
-
-
