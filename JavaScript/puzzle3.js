@@ -31,20 +31,23 @@ if (currentStage < 3) {
 			disableButtons();
 			stopTimer();
 		} else {
+      if (currentStage % 2 === 0) {
+        localize(currentStage - 1);
+      }
 			showWro.className = ('visible');
 			disableButtons();
 			stopTimer();
 		}
 	});
 
-	contin.addEventListener('click', function(e){
-		e.preventDefault();
-		window.location.href = ('interm1.html');
-	});
+  //Continue and Returns buttons.
+    $('#return-button').on('click', function(e){
+      e.preventDefault();
+      window.location = 'puzzle' + currentStage + '.html';
+    });
 
-	document.getElementById('return-button').addEventListener('click', function(e){
-		e.preventDefault();
-		window.location.href = ('Fail.html');
-	});
-}
-
+    $('#cont').on('click', function(e) {
+      e.preventDefault();
+      window.location.href = "interm1.html";
+    });
+  }
