@@ -4,7 +4,6 @@
   <title>Echelon.JS</title>
   <link rel="stylesheet" type="text/css" href="Css/normalize.css">
   <link rel="stylesheet" type="text/css" href="Css/CSS.css">
-  <script src="JavaScript/universal.js"></script>
 </head>
 
 <body>
@@ -28,8 +27,8 @@
       <article id="question">
         <p>Given <code>z</code> is <code>true</code> and <code>x || (!y &amp;&amp; z)</code> is <code>false</code>, <br />what must be the boolean value of <code>y</code>?</p>
         <form>
-          <button id="ans-true">true</button>
-          <button id="ans-false">false</button>
+          <button class="choices correct" id="ans-true">true</button>
+          <button class="choices" id="ans-false">false</button>
         </form>
       </article>
 
@@ -52,6 +51,8 @@
       <a href="about-us.html">About Us</a>
     </footer>
   </main>
-  <script type="text/javascript" src="JavaScript/puzzle7.js"></script>
+  <script type="text/javascript" src="JavaScript/jquery-1.11.3.min.js"></script>
+  <script src="JavaScript/universal.js"></script>
+  <script type="text/javascript" src="JavaScript/puzzle.js"></script>
 </body>
 </html>
