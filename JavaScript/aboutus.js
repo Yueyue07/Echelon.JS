@@ -19,9 +19,32 @@ aboutUs.fetchJSON = function() {
   });
 };
 
+aboutUs.profileShow = function() {
+  // $('button').on('click',function(event){
+  //   console.log('try');
+    // $(this + ':parent').hide();
+    // $(this)('hidden').show();
+    $('.hidden').hide();
+  $('button').on('click',function(){
+    console.log($(this).parent());
+    $(this).parent().hide();
+    console.log($(this).parent().next());
+    $(this).parent().next().show();
+    //$(this).next().show();
+
+
+  });
+  // });
+};
+
 $(function(){
   aboutUs.compileTemplate();
 });
+
+$(document).ajaxComplete(function(){
+  aboutUs.profileShow();
+});
+
 // var dec1 = document.getElementById('dec1');
 // var agenta = document.getElementById('agenta');
 // var agent1 = document.getElementById('agent1');
