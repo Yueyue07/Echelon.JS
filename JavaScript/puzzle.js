@@ -12,7 +12,7 @@ $(function() {
     var wrong = document.getElementById('res-wrong');
 
     var disableButtons = function () {
-      $('.choices').disabled = true;
+      $('.choices').prop('disabled',true);
     };
 
     timerAll(90);
@@ -22,7 +22,7 @@ $(function() {
       if ($(this).hasClass('correct')) {
         event.preventDefault();
         localize(currentStage + 1);
-        correct.className="visible";
+        correct.className = "visible";
         disableButtons();
         stopTimer();
       } else {
@@ -30,7 +30,7 @@ $(function() {
           localize(currentStage - 1);
         }
         event.preventDefault();
-        wrong.className="visible";
+        wrong.className = "visible";
         disableButtons();
         stopTimer();
       }
@@ -39,12 +39,12 @@ $(function() {
   //Continue and Returns buttons.
     $('#return-button').on('click', function(e){
       e.preventDefault();
-      window.location = 'puzzle' + currentStage + '.html';
+      window.location.href = 'puzzle' + currentStage + '.html';
     });
 
     $('#cont').on('click', function(e) {
       e.preventDefault();
-      window.location= 'puzzle' + currentStage + '.html';
+      window.location.href = 'puzzle' + currentStage + '.html';
     });
   }
 });

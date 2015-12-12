@@ -13,7 +13,7 @@ if (currentStage < 6) {
 
   var disableButtons = function() {
     ans1.disabled = true;
-   
+
     submit.disabled = true;
   }
 
@@ -22,28 +22,31 @@ if (currentStage < 6) {
   submit.addEventListener('click', function(e){
     event.preventDefault();
     var str1 = ans1.value.replace(/\s/g, '');
-  
+
     if(str1 === 'this.') {
       correct.className="visible";
       localize(7);
       disableButtons();
       stopTimer();
     } else {
+      if (currentStage % 2 === 0) {
+        localize(currentStage - 1);
+      }
       wrong.className="visible";
       disableButtons();
       stopTimer();
     }
   });
 
-  document.getElementById('cont').addEventListener('click', function(e) {
+  //Continue and Returns buttons.
+  $('#return-button').on('click', function(e){
     e.preventDefault();
-    window.location = "interm2.html";
+    window.location = 'puzzle' + currentStage + '.html';
   });
 
-  document.getElementById('return-button').addEventListener('click', function(e){
+  $('#cont').on('click', function(e) {
     e.preventDefault();
-    window.location = "Fail.html";
+    window.location.href = "interm1.html";
   });
 
 }
-

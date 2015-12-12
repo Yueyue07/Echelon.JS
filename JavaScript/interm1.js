@@ -1,4 +1,6 @@
 $(function() {
+   var currentStage;
+   getLocal();
     var $center = $("#center"), degree = 0, timer;
     rotate();
     function rotate() {
@@ -26,5 +28,6 @@ $(function() {
 });
 
 setTimeout(function() {
-    window.location.href = 'puzzle4.html';
+
+    window.location.href = 'puzzle' + currentStage + '.html';
 }, 5000);

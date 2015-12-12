@@ -24,17 +24,23 @@ if (currentStage < 10) {
       disableButton();
       stopTimer();
     } else {
+      if (currentStage % 2 === 0) {
+        localize(currentStage - 1);
+      }
       document.getElementById('res-wrong').className = 'visible';
       disableButton();
       stopTimer();
     }
   });
-
-  document.getElementById('cont').addEventListener('click', function(){
-    window.location.href = 'success.html';
+  //Continue and Returns buttons.
+  $('#return-button').on('click', function(e){
+    e.preventDefault();
+    window.location = 'puzzle' + currentStage + '.html';
   });
 
-  document.getElementById('return-button').addEventListener('click', function(){
-    window.location.href = 'Fail.html';
+  $('#cont').on('click', function(e) {
+    e.preventDefault();
+    window.location= 'puzzle' + currentStage + '.html';
   });
+
 }
